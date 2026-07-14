@@ -3,7 +3,7 @@
   "production": [
     {
       "dinoType": "/Game/ScorchedEarth/Dinos/Phoenix/Phoenix_Character_BP.Phoenix_Character_BP",
-      "chanceToProduce": 0.2,
+      "chanceToProduce": 0.5,
       "produces": [
         {
           "intervalSeconds": 1800,
@@ -37,12 +37,12 @@
       "chanceToProduce": 0.5,
       "produces": [
         {
-          "intervalSeconds": 300,
+          "intervalSeconds": 60,
           "itemSelectMode": 0,
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
-              "maxQuantityPerCycle": 100,
+              "maxQuantityPerCycle": 25,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
@@ -61,12 +61,12 @@
       "chanceToProduce": 0.5,
       "produces": [
         {
-          "intervalSeconds": 300,
+          "intervalSeconds": 60,
           "itemSelectMode": 0,
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
-              "maxQuantityPerCycle": 100,
+              "maxQuantityPerCycle": 25,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
@@ -85,7 +85,7 @@
       "chanceToProduce": 0.5,
       "produces": [
         {
-          "intervalSeconds": 1800,
+          "intervalSeconds": 600,
           "itemSelectMode": 0,
           "items": [
             {
@@ -109,7 +109,7 @@
       "chanceToProduce": 0.5,
       "produces": [
         {
-          "intervalSeconds": 1800,
+          "intervalSeconds": 600,
           "itemSelectMode": 0,
           "items": [
             {
@@ -133,7 +133,7 @@
       "chanceToProduce": 0.25,
       "produces": [
         {
-          "intervalSeconds": 3600,
+          "intervalSeconds": 600,
           "itemSelectMode": 0,
           "items": [
             {
@@ -222,15 +222,22 @@
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Honey.PrimalItemConsumable_Honey",
-              "maxQuantityPerCycle": 50,
+              "maxQuantityPerCycle": 5,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
               "alternateItems": [],
               "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
+              "consumesItemsChance": 1,
+              "consumesItems": [
+                {
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareFlower.PrimalItemResource_RareFlower",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 0
+                }
+              ]
             }
           ]
         }
@@ -246,7 +253,7 @@
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil",
-              "maxQuantityPerCycle": 20,
+              "maxQuantityPerCycle": 25,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
@@ -281,7 +288,7 @@
     },
     {
       "dinoType": "/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP_Aberrant.DungBeetle_Character_BP_Aberrant",
-      "chanceToProduce": 1,
+      "chanceToProduce": 0.5,
       "produces": [
         {
           "intervalSeconds": 600,
@@ -289,7 +296,7 @@
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil",
-              "maxQuantityPerCycle": 20,
+              "maxQuantityPerCycle": 25,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
