@@ -42,7 +42,7 @@
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
-              "maxQuantityPerCycle": 50,
+              "maxQuantityPerCycle": 100,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
@@ -66,7 +66,7 @@
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
-              "maxQuantityPerCycle": 50,
+              "maxQuantityPerCycle": 100,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
@@ -198,7 +198,7 @@
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ElementShard.PrimalItemResource_ElementShard",
-              "maxQuantityPerCycle": 100,
+              "maxQuantityPerCycle": 50,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
@@ -222,7 +222,7 @@
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Honey.PrimalItemConsumable_Honey",
-              "maxQuantityPerCycle": 20,
+              "maxQuantityPerCycle": 50,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
@@ -241,7 +241,7 @@
       "chanceToProduce": 0.5,
       "produces": [
         {
-          "intervalSeconds": 600,
+          "intervalSeconds": 300,
           "itemSelectMode": 0,
           "items": [
             {
@@ -290,7 +290,7 @@
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil",
               "maxQuantityPerCycle": 20,
-              "maxQuantityInTerminal": 5000,
+              "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
@@ -327,7 +327,7 @@
       "chanceToProduce": 0.5,
       "produces": [
         {
-          "intervalSeconds": 900,
+          "intervalSeconds": 600,
           "itemSelectMode": 0,
           "items": [
             {
