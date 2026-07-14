@@ -37,12 +37,12 @@
       "chanceToProduce": 0.5,
       "produces": [
         {
-          "intervalSeconds": 600,
+          "intervalSeconds": 300,
           "itemSelectMode": 0,
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
-              "maxQuantityPerCycle": 20,
+              "maxQuantityPerCycle": 50,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
@@ -61,12 +61,12 @@
       "chanceToProduce": 0.5,
       "produces": [
         {
-          "intervalSeconds": 600,
+          "intervalSeconds": 300,
           "itemSelectMode": 0,
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
-              "maxQuantityPerCycle": 20,
+              "maxQuantityPerCycle": 50,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
