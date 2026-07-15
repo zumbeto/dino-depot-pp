@@ -56,29 +56,35 @@
               "alternateItemsChance": 0,
               "alternateItems": [],
               "comsumesSelectMode": 0,
-              "consumesItemsChance": 0.35,
+              "consumesItemsChance": 1,
               "consumesItems": [
                 {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SweetVeggieCake.PrimalItemConsumable_SweetVeggieCake",
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
                   "maxQuantityInTerminal": 0
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "intervalSeconds": 300,
+          "itemSelectMode": 0,
+          "items": [
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityPerCycle": 5,
+              "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
               "alternateItems": [],
               "comsumesSelectMode": 0,
-              "consumesItemsChance": 0.15,
+              "consumesItemsChance": 1,
               "consumesItems": [
                 {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SweetVeggieCake.PrimalItemConsumable_SweetVeggieCake",
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
                   "maxQuantityInTerminal": 0
@@ -105,29 +111,11 @@
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
               "alternateItems": [],
-              "comsumesSelectMode": 1,
+              "comsumesSelectMode": 0,
               "consumesItemsChance": 1,
               "consumesItems": [
                 {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Rockarrot.PrimalItemConsumable_Veggie_Rockarrot",
-                  "quantityPerItem": 1,
-                  "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 0
-                },
-                {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Savoroot.PrimalItemConsumable_Veggie_Savoroot",
-                  "quantityPerItem": 1,
-                  "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 0
-                },
-                {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Longrass.PrimalItemConsumable_Veggie_Longrass",
-                  "quantityPerItem": 1,
-                  "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 0
-                },
-                {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Citronal.PrimalItemConsumable_Veggie_Citronal",
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
                   "maxQuantityInTerminal": 0
@@ -142,35 +130,17 @@
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic",
-              "maxQuantityPerCycle": 1,
-              "maxQuantityInTerminal": 100,
+              "maxQuantityPerCycle": 5,
+              "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
               "alternateItems": [],
-              "comsumesSelectMode": 1,
+              "comsumesSelectMode": 0,
               "consumesItemsChance": 1,
               "consumesItems": [
                 {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Citronal.PrimalItemConsumable_Veggie_Citronal",
-                  "quantityPerItem": 1,
-                  "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 0
-                },
-                {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Rockarrot.PrimalItemConsumable_Veggie_Rockarrot",
-                  "quantityPerItem": 1,
-                  "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 0
-                },
-                {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Savoroot.PrimalItemConsumable_Veggie_Savoroot",
-                  "quantityPerItem": 1,
-                  "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 0
-                },
-                {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Longrass.PrimalItemConsumable_Veggie_Longrass",
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
                   "maxQuantityInTerminal": 0
