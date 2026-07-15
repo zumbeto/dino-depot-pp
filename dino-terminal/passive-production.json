@@ -41,7 +41,7 @@
     },
     {
       "dinoType": "/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP",
-      "chanceToProduce": 0.75,
+      "chanceToProduce": 1,
       "produces": [
         {
           "intervalSeconds": 60,
@@ -56,10 +56,10 @@
               "alternateItemsChance": 0,
               "alternateItems": [],
               "comsumesSelectMode": 0,
-              "consumesItemsChance": 1,
+              "consumesItemsChance": 0.5,
               "consumesItems": [
                 {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SweetVeggieCake.PrimalItemConsumable_SweetVeggieCake",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
                   "maxQuantityInTerminal": 0
@@ -84,7 +84,7 @@
               "consumesItemsChance": 1,
               "consumesItems": [
                 {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SweetVeggieCake.PrimalItemConsumable_SweetVeggieCake",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
                   "maxQuantityInTerminal": 0
@@ -97,7 +97,7 @@
     },
     {
       "dinoType": "/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP_Aberrant.Achatina_Character_BP_Aberrant",
-      "chanceToProduce": 0.75,
+      "chanceToProduce": 1,
       "produces": [
         {
           "intervalSeconds": 60,
@@ -112,10 +112,10 @@
               "alternateItemsChance": 0,
               "alternateItems": [],
               "comsumesSelectMode": 0,
-              "consumesItemsChance": 1,
+              "consumesItemsChance": 0.5,
               "consumesItems": [
                 {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SweetVeggieCake.PrimalItemConsumable_SweetVeggieCake",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
                   "maxQuantityInTerminal": 0
@@ -140,7 +140,7 @@
               "consumesItemsChance": 1,
               "consumesItems": [
                 {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SweetVeggieCake.PrimalItemConsumable_SweetVeggieCake",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
                   "maxQuantityInTerminal": 0
@@ -464,3 +464,4 @@
     }
   ]
 }
+
