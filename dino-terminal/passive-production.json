@@ -15,7 +15,7 @@
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
-              "alternateItemsChance": 0.1,
+              "alternateItemsChance": 0.05,
               "alternateItems": [
                 {
                   "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl",
@@ -34,7 +34,7 @@
     },
     {
       "dinoType": "/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP",
-      "chanceToProduce": 0.5,
+      "chanceToProduce": 0.75,
       "produces": [
         {
           "intervalSeconds": 60,
@@ -58,7 +58,7 @@
     },
     {
       "dinoType": "/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP_Aberrant.Achatina_Character_BP_Aberrant",
-      "chanceToProduce": 0.5,
+      "chanceToProduce": 0.75,
       "produces": [
         {
           "intervalSeconds": 60,
@@ -82,7 +82,7 @@
     },
     {
       "dinoType": "/Game/PrimalEarth/Dinos/Basilosaurus/Basilosaurus_Character_BP.Basilosaurus_Character_BP",
-      "chanceToProduce": 0.5,
+      "chanceToProduce": 0.75,
       "produces": [
         {
           "intervalSeconds": 600,
@@ -90,7 +90,7 @@
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil",
-              "maxQuantityPerCycle": 20,
+              "maxQuantityPerCycle": 10,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
@@ -106,7 +106,7 @@
     },
     {
       "dinoType": "/Game/Genesis/Dinos/BiomeVariants/Ocean_Basilosaurus/Ocean_Basilosaurus_Character_BP.Ocean_Basilosaurus_Character_BP",
-      "chanceToProduce": 0.5,
+      "chanceToProduce": 0.75,
       "produces": [
         {
           "intervalSeconds": 600,
@@ -114,7 +114,7 @@
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil",
-              "maxQuantityPerCycle": 20,
+              "maxQuantityPerCycle": 10,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
@@ -130,15 +130,15 @@
     },
     {
       "dinoType": "/Game/PrimalEarth/Dinos/Tusoteuthis/Tusoteuthis_Character_BP.Tusoteuthis_Character_BP",
-      "chanceToProduce": 0.25,
+      "chanceToProduce": 0.75,
       "produces": [
         {
-          "intervalSeconds": 600,
+          "intervalSeconds": 60,
           "itemSelectMode": 0,
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil",
-              "maxQuantityPerCycle": 20,
+              "maxQuantityPerCycle": 10,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
@@ -154,15 +154,15 @@
     },
     {
       "dinoType": "/Game/Genesis/Dinos/GiantTurtle/GiantTurtle_Character_BP.GiantTurtle_Character_BP",
-      "chanceToProduce": 0.5,
+      "chanceToProduce": 0.75,
       "produces": [
         {
-          "intervalSeconds": 900,
+          "intervalSeconds": 600,
           "itemSelectMode": 0,
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareFlower.PrimalItemResource_RareFlower",
-              "maxQuantityPerCycle": 20,
+              "maxQuantityPerCycle": 10,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
@@ -174,7 +174,7 @@
             },
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
-              "maxQuantityPerCycle": 20,
+              "maxQuantityPerCycle": 10,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
@@ -193,12 +193,12 @@
       "chanceToProduce": 0.25,
       "produces": [
         {
-          "intervalSeconds": 3600,
+          "intervalSeconds": 7200,
           "itemSelectMode": 0,
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ElementShard.PrimalItemResource_ElementShard",
-              "maxQuantityPerCycle": 50,
+              "maxQuantityPerCycle": 100,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
@@ -214,7 +214,7 @@
     },
     {
       "dinoType": "/Game/PrimalEarth/Dinos/Bee/Bee_Queen_Character_BP.Bee_Queen_Character_BP",
-      "chanceToProduce": 0.5,
+      "chanceToProduce": 1,
       "produces": [
         {
           "intervalSeconds": 900,
@@ -245,15 +245,15 @@
     },
     {
       "dinoType": "/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP.DungBeetle_Character_BP",
-      "chanceToProduce": 0.5,
+      "chanceToProduce": 0.75,
       "produces": [
         {
-          "intervalSeconds": 300,
+          "intervalSeconds": 600,
           "itemSelectMode": 0,
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil",
-              "maxQuantityPerCycle": 25,
+              "maxQuantityPerCycle": 10,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
@@ -288,7 +288,7 @@
     },
     {
       "dinoType": "/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP_Aberrant.DungBeetle_Character_BP_Aberrant",
-      "chanceToProduce": 0.5,
+      "chanceToProduce": 0.75,
       "produces": [
         {
           "intervalSeconds": 600,
@@ -296,7 +296,7 @@
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil",
-              "maxQuantityPerCycle": 25,
+              "maxQuantityPerCycle": 10,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
@@ -331,7 +331,7 @@
     },
     {
       "dinoType": "/Game/PrimalEarth/Dinos/Archaeopteryx/Archa_Character_BP.Archa_Character_BP",
-      "chanceToProduce": 0.5,
+      "chanceToProduce": 0.75,
       "produces": [
         {
           "intervalSeconds": 600,
@@ -339,7 +339,7 @@
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Sap.PrimalItemResource_Sap",
-              "maxQuantityPerCycle": 20,
+              "maxQuantityPerCycle": 10,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
@@ -355,10 +355,10 @@
     },
     {
       "dinoType": "/Game/ASA/Dinos/Archelon/Dinos/Archelon_Character_BP_ASA.Archelon_Character_BP_ASA",
-      "chanceToProduce": 0.5,
+      "chanceToProduce": 0.75,
       "produces": [
         {
-          "intervalSeconds": 3600,
+          "intervalSeconds": 600,
           "itemSelectMode": 0,
           "items": [
             {
