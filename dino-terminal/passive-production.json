@@ -49,32 +49,7 @@
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
-              "maxQuantityPerCycle": 25,
-              "maxQuantityInTerminal": 1000,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0.5,
-              "consumesItems": [
-                {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SweetVeggieCake.PrimalItemConsumable_SweetVeggieCake",
-                  "quantityPerItem": 1,
-                  "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 0
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "intervalSeconds": 300,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic",
-              "maxQuantityPerCycle": 5,
+              "maxQuantityPerCycle": 50,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
@@ -84,12 +59,30 @@
               "consumesItemsChance": 1,
               "consumesItems": [
                 {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SweetVeggieCake.PrimalItemConsumable_SweetVeggieCake",
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Honey.PrimalItemConsumable_Honey",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
                   "maxQuantityInTerminal": 0
                 }
               ]
+            }
+          ]
+        },
+        {
+          "intervalSeconds": 600,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic",
+              "maxQuantityPerCycle": 1,
+              "maxQuantityInTerminal": 1000,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
             }
           ]
         }
@@ -105,32 +98,7 @@
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
-              "maxQuantityPerCycle": 25,
-              "maxQuantityInTerminal": 1000,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0.5,
-              "consumesItems": [
-                {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SweetVeggieCake.PrimalItemConsumable_SweetVeggieCake",
-                  "quantityPerItem": 1,
-                  "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 0
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "intervalSeconds": 300,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic",
-              "maxQuantityPerCycle": 5,
+              "maxQuantityPerCycle": 50,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
@@ -140,12 +108,30 @@
               "consumesItemsChance": 1,
               "consumesItems": [
                 {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SweetVeggieCake.PrimalItemConsumable_SweetVeggieCake",
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Honey.PrimalItemConsumable_Honey",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
                   "maxQuantityInTerminal": 0
                 }
               ]
+            }
+          ]
+        },
+        {
+          "intervalSeconds": 600,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic",
+              "maxQuantityPerCycle": 1,
+              "maxQuantityInTerminal": 1000,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
             }
           ]
         }
@@ -168,8 +154,15 @@
               "alternateItemsChance": 0,
               "alternateItems": [],
               "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
+              "consumesItemsChance": 1,
+              "consumesItems": [
+                {
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat_Fish.PrimalItemConsumable_RawMeat_Fish",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 0
+                }
+              ]
             }
           ]
         }
@@ -192,8 +185,15 @@
               "alternateItemsChance": 0,
               "alternateItems": [],
               "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
+              "consumesItemsChance": 1,
+              "consumesItems": [
+                {
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat_Fish.PrimalItemConsumable_RawMeat_Fish",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 0
+                }
+              ]
             }
           ]
         }
@@ -216,8 +216,15 @@
               "alternateItemsChance": 0,
               "alternateItems": [],
               "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
+              "consumesItemsChance": 1,
+              "consumesItems": [
+                {
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat_Fish.PrimalItemConsumable_RawMeat_Fish",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 0
+                }
+              ]
             }
           ]
         }
@@ -233,27 +240,41 @@
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareFlower.PrimalItemResource_RareFlower",
-              "maxQuantityPerCycle": 10,
+              "maxQuantityPerCycle": 100,
               "maxQuantityInTerminal": 1000,
-              "quantityPerDino": 1,
+              "quantityPerDino": 20,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
               "alternateItems": [],
               "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
+              "consumesItemsChance": 1,
+              "consumesItems": [
+                {
+                  "bpPath": "/Game/ASA/Dinos/Archelon/Dinos/Consumables/PrimalItemConsumable_Veggie_TurtleAlgae_ASA.PrimalItemConsumable_Veggie_TurtleAlgae_ASA",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 0
+                }
+              ]
             },
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
-              "maxQuantityPerCycle": 10,
+              "maxQuantityPerCycle": 100,
               "maxQuantityInTerminal": 1000,
-              "quantityPerDino": 1,
+              "quantityPerDino": 20,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
               "alternateItems": [],
               "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
+              "consumesItemsChance": 1,
+              "consumesItems": [
+                {
+                  "bpPath": "/Game/ASA/Dinos/Archelon/Dinos/Consumables/PrimalItemConsumable_Veggie_TurtleAlgae_ASA.PrimalItemConsumable_Veggie_TurtleAlgae_ASA",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 0
+                }
+              ]
             }
           ]
         }
@@ -295,7 +316,7 @@
       "chanceToProduce": 0.75,
       "produces": [
         {
-          "intervalSeconds": 1800,
+          "intervalSeconds": 900,
           "itemSelectMode": 0,
           "items": [
             {
@@ -412,12 +433,12 @@
       "chanceToProduce": 0.75,
       "produces": [
         {
-          "intervalSeconds": 900,
+          "intervalSeconds": 600,
           "itemSelectMode": 0,
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Sap.PrimalItemResource_Sap",
-              "maxQuantityPerCycle": 10,
+              "maxQuantityPerCycle": 25,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
@@ -427,7 +448,7 @@
               "consumesItemsChance": 1,
               "consumesItems": [
                 {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Chitin.PrimalItemResource_Chitin",
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
                   "maxQuantityInTerminal": 0
@@ -443,20 +464,27 @@
       "chanceToProduce": 0.75,
       "produces": [
         {
-          "intervalSeconds": 900,
+          "intervalSeconds": 600,
           "itemSelectMode": 0,
           "items": [
             {
               "bpPath": "/Game/ASA/Dinos/Archelon/Dinos/Consumables/PrimalItemConsumable_Veggie_TurtleAlgae_ASA.PrimalItemConsumable_Veggie_TurtleAlgae_ASA",
-              "maxQuantityPerCycle": 10,
+              "maxQuantityPerCycle": 25,
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
               "alternateItems": [],
               "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
+              "consumesItemsChance": 1,
+              "consumesItems": [
+                {
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Mejoberry.PrimalItemConsumable_Berry_Mejoberry",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 0
+                }
+              ]
             }
           ]
         }
