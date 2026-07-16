@@ -59,7 +59,7 @@
               "consumesItemsChance": 1,
               "consumesItems": [
                 {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Honey.PrimalItemConsumable_Honey",
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
                   "maxQuantityInTerminal": 0
@@ -108,7 +108,7 @@
               "consumesItemsChance": 1,
               "consumesItems": [
                 {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Honey.PrimalItemConsumable_Honey",
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
                   "maxQuantityInTerminal": 0
@@ -235,7 +235,7 @@
       "chanceToProduce": 0.75,
       "produces": [
         {
-          "intervalSeconds": 600,
+          "intervalSeconds": 300,
           "itemSelectMode": 0,
           "items": [
             {
@@ -250,7 +250,7 @@
               "consumesItemsChance": 1,
               "consumesItems": [
                 {
-                  "bpPath": "/Game/ASA/Dinos/Archelon/Dinos/Consumables/PrimalItemConsumable_Veggie_TurtleAlgae_ASA.PrimalItemConsumable_Veggie_TurtleAlgae_ASA",
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Mejoberry.PrimalItemConsumable_Berry_Mejoberry",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
                   "maxQuantityInTerminal": 0
@@ -269,7 +269,7 @@
               "consumesItemsChance": 1,
               "consumesItems": [
                 {
-                  "bpPath": "/Game/ASA/Dinos/Archelon/Dinos/Consumables/PrimalItemConsumable_Veggie_TurtleAlgae_ASA.PrimalItemConsumable_Veggie_TurtleAlgae_ASA",
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Mejoberry.PrimalItemConsumable_Berry_Mejoberry",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
                   "maxQuantityInTerminal": 0
@@ -448,7 +448,7 @@
               "consumesItemsChance": 1,
               "consumesItems": [
                 {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
+                  "bpPath": "/Game/ASA/Dinos/Archelon/Dinos/Consumables/PrimalItemConsumable_Veggie_TurtleAlgae_ASA.PrimalItemConsumable_Veggie_TurtleAlgae_ASA",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
                   "maxQuantityInTerminal": 0
@@ -464,7 +464,7 @@
       "chanceToProduce": 0.75,
       "produces": [
         {
-          "intervalSeconds": 600,
+          "intervalSeconds": 900,
           "itemSelectMode": 0,
           "items": [
             {
