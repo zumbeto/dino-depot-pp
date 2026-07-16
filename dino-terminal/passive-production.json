@@ -142,7 +142,7 @@
       "chanceToProduce": 0.75,
       "produces": [
         {
-          "intervalSeconds": 600,
+          "intervalSeconds": 300,
           "itemSelectMode": 0,
           "items": [
             {
@@ -173,7 +173,7 @@
       "chanceToProduce": 0.75,
       "produces": [
         {
-          "intervalSeconds": 600,
+          "intervalSeconds": 300,
           "itemSelectMode": 0,
           "items": [
             {
@@ -242,7 +242,7 @@
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareFlower.PrimalItemResource_RareFlower",
               "maxQuantityPerCycle": 100,
               "maxQuantityInTerminal": 1000,
-              "quantityPerDino": 20,
+              "quantityPerDino": 10,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
               "alternateItems": [],
@@ -261,7 +261,7 @@
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
               "maxQuantityPerCycle": 100,
               "maxQuantityInTerminal": 1000,
-              "quantityPerDino": 20,
+              "quantityPerDino": 10,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
               "alternateItems": [],
@@ -492,4 +492,3 @@
     }
   ]
 }
-
